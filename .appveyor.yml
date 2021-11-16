@@ -13,5 +13,5 @@ install:
   - java -jar ./artifacts/app-mbank.jar &
 
 build_script:
-  - chmod +x gradlew # даем права доступа к файлу gradlew
+  - chmod +x gradlew # даем права доступа к файлу gradlew *************TEST**********
   - ./gradlew test --info  # запускаем тест, флаг --info позволяет выводить больше информации
